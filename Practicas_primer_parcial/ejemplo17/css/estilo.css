@@ -1,0 +1,101 @@
+
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+body {
+background-color: gray;
+color: white;
+}
+.container {
+width: 960px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 20px;
+overflow: auto;
+}
+.header {
+height: 150;
+background-color:black
+}
+
+h1 {
+text-align: center;
+line-height: 5;
+}
+
+section#logo {
+height: 150px;
+float: left
+}
+section#banner {
+text-align: center;
+line-height: 150px; 
+font-size: 20px;
+}
+.nav {
+background-color: orange;
+height: 60px;
+}
+ul
+{
+list-style: none;
+display: flex;
+justify-content: flex-end;
+}
+a{
+color: black;
+display: block;
+padding: 20px;
+text-decoration: none;
+font-family: arial;
+font-size: 20px;
+}
+a:hover {
+background-color:black;
+color: aliceblue;
+}
+h2 {
+text-align: center;
+line-height: 3;
+color: black;
+}
+.main {
+width: 700px;
+height: 500px;
+background-color: papayawhip; 
+float: left;
+margin: auto;
+margin-top: 10px;
+margin-right: 10px;
+border-bottom: 10px;
+color: black;
+}
+main h2{
+line-height: 500px;
+}
+.section {
+width: 250px;
+height: 500px;
+background-color: pink;
+float: right;
+margin-top: 10px;
+color: black;
+}
+.section h2{
+line-height: 500px;
+}
+p {
+padding: 10px;
+text-align: justify;
+font-size: 20px;
+}
+.footer {
+height: 50px;
+background-color:black;
+clear: both;
+text-align: center;
+height: 50; 
+line-height: 50px;
+}
