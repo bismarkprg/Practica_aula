@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="controlador.php" method="POST">
+        <!--selecciona varias opciones-->
+    <select name="paises[]" multiple>
+        <option value="peru">Perú</option>
+        <option value="bolivia">Bolivia</option>
+        <option value="argentina">Argentina</option>
+    </select>
+    <br>
+    <label>Manzana
+        <input type="checkbox" value="manzana" name="frutas[]">
+    </label>
+    <label>Naranja
+        <input type="checkbox" value="naranja" name="frutas[]">
+    </label>
+    <label>Pera
+        <input type="checkbox" value="pera" name="frutas[]">
+    </label>
+    <button type="submit">Enviar</button>
+    </form>
+    <br>
+</body>
+</html>
