@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+/* Estilos para el video */
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los títulos */
+.title {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo uniforme para los campos de texto y número */
+input[type="text"], input[type="number"] {
+    width: 100%; /* Ocupa todo el espacio disponible */
+    padding: 10px; /* Espacio interno */
+    margin-bottom: 20px; /* Espacio inferior entre los campos */
+    border: 1px solid #ced4da; /* Color del borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1em; /* Tamaño de la fuente */
+    box-sizing: border-box; /* Para que padding no afecte el ancho total */
+}
+
+/* Botón de calcular */
+#boton {
+    display: inline-block;
+    width: 100%; /* Botón de tamaño completo */
+    padding: 10px;
+    background-color: #007bff; /* Color azul */
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#boton:hover {
+    background-color: #0056b3;
+}
+
+/* Botón de volver */
+.btn-block {
+    margin-top: 20px;
+    font-size: 1.1em;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.btn-block:hover {
+    background-color: #218838;
+}
+
+/* Ajustes para el texto de los datos registrados */
+p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Estilos adicionales para centrado en móviles */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 50px;
+        padding: 20px;
+    }
+}

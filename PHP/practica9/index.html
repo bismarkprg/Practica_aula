@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registrar Pedido</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/estilo1.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Inicio video -->
+    <video src="videos/video1.mp4" autoplay loop muted></video>
+    <!-- Fin video -->
+    <header>
+        <div class="container">
+            <form action="calcular.php" method="post">
+                <h2 class="titulo text-center text-success">Calcular Pedido</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <label for="producto">Producto:</label>
+                        <input type="text" id="producto" name="producto" placeholder="Ingrese el Producto" required>
+                        <label for="precio">Precio :</label>
+                        <input type="text" id="precio" name="precio" placeholder="Ingrese el Precio" required>
+                        <label for="cantidad">Cantidad :</label>
+                        <input type="text" id="cantidad" name="cantidad" placeholder="Ingrese la Cantidad" required>
+                        <br>
+                        <label for="pago">Forma de Pago:</label>
+                        <input type="text" id="pago" name="pago" placeholder="Ingrese la forma de Pago (contado o credito)" required>
+                        <br>
+                        <input type="submit" value="CALCULAR" id="boton">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <!-- Archivos JavaScript -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
